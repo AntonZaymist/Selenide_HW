@@ -14,9 +14,8 @@
 
 - Откройте страницу SoftAssertions, проверьте что внутри есть пример кода для JUnit5
 
-![plot](./src//resources/scr.png)
+<img src="/resources/scr.png" alt="scr"/>
 
-![Screenshot](scr.png)
 
 3. (опциональное) Запрограммируйте Drag&Drop с помощью Selenide.actions()
 
