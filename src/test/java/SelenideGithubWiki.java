@@ -23,12 +23,10 @@ public class SelenideGithubWiki {
 //        Перейдите в раздел Wiki проекта
         $(byText("Wiki")).click();
 //        Убедитесь, что в списке страниц (Pages) есть страница SoftAssertions
-//        $(".markdown-body").$(byText("Soft assertions")).click();
         $("#wiki-pages-filter").val("SoftAssertions");
         $(byText("SoftAssertions")).click();
 //        Откройте страницу SoftAssertions, проверьте что внутри есть пример кода для JUnit5
         $(".markdown-body").shouldHave(text("Using JUnit5 extend test class")).shouldBe(visible);
-        sleep(5000);
 
     }
 }
